@@ -2,7 +2,7 @@
     display: flex;
 }
 header{
-    
+    background-color: #3fa9f5;
     display: flex;
     justify-content: space-between;
     margin-top: 0;
@@ -17,7 +17,61 @@ header{
     padding-left: 2px;
     margin-right: 10px;
 }
-right-container{
+.right-container{
     padding-right: 5px;
+    margin: 0;  
+    display: flex table-column;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 0;
+    padding-right: 0;
 }
-
+.Timothy{
+    color: white;
+}
+.Blog{
+    color: white;
+    cursor: pointer;
+}
+.search-bar{
+    padding: 10px;
+}
+.by-timothy, .last-updated{
+    color:gray;
+    padding:0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.case-study-takeways{
+    font-size: small;
+}
+.level1 , .level2{
+    display: list-item;
+    margin-bottom: 0.8rem;
+    position: relative ;
+    padding: 0 0 0 33px;
+    color: #292b2c;
+}
+.strategy-info{
+    margin-bottom: 1.6rem;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #292b2c;
+}
+.side-image{ 
+    height: 4em; 
+       width: 4em;
+       text-align: center;
+    
+}
+.about-info{
+    text-align: center!important;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+footer{
+    text-align: center;
+}
