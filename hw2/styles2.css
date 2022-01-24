@@ -1,0 +1,23 @@
+.main-container{
+    display: flex;
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    font-size: 14px;
+    padding: 1px;
+}
+.left-container{
+    width: 70%;
+   
+    
+    padding-right: 1px;
+    padding-left: 2px;
+    margin-right: 10px;
+}
+right-container{
+    padding-right: 5px;
+}
+
